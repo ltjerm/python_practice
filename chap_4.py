@@ -38,7 +38,42 @@ pizza = ['pepperoni', 'cheese', 'sausage', 'mushroom']
 # random = list(range(0,100,5))
 # print(random)
 
-square = []
-for value in range(1,20):
-    square.append(value**2)
+# square = []
+# for value in range(1,20):
+#     square.append(value**2)
+# print(square)
+
+
+# triangle = []
+# for value in range(1,11):
+#     triangle.append(value**3)
+
+# print(triangle)
+
+# colors = ['red', 'blue', 'green', 'yellow', 'orange', 'purple']
+
+# for color in colors:
+#     print(color)
+
+# cars = []
+
+# for car in range(0,10):
+#     cars.append(car)
+
+# print(cars)
+
+digits = [1,2,3,4,5,6,7,8,9,0]
+
+print(min(digits))
+print(max(digits))
+print(sum(digits))
+
+
+######### List Comprehensions #########
+
+square = [value*2 for value in range(1,11)]
 print(square)
+
+numero = [code**3 for code in range(1,11)]
+print(numero)
+
